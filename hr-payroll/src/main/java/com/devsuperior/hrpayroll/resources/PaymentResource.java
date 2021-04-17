@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/payments")
-public class PaumentResource {
+public class PaymentResource {
 
     @Autowired
     private PaymentService service;
